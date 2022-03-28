@@ -1,0 +1,24 @@
+Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+security_groups_names = {
+  "sg-004a6ebbdbedd9641" = "allow_tls"
+  "sg-053bc8267c86b033f" = "default"
+}
+subnet_ids_with_cidrs = [
+  "subnet-0af919653819d2d99 = 10.0.0.192/26",
+  "subnet-0cb399b22526c7793 = 10.0.0.128/26",
+]
+vpc_id_with_cidr = "vpc-0153884276e5c631a = 10.0.0.0/24"
+PS C:\Users\Festus\Documents\EPAM\tf\tf-lab1> tf output
+security_groups_names = {
+  "sg-004a6ebbdbedd9641" = "allow_tls"
+  "sg-053bc8267c86b033f" = "default"
+}
+subnet_ids_with_cidrs = [
+  "subnet-0af919653819d2d99 = 10.0.0.192/26",
+  "subnet-0cb399b22526c7793 = 10.0.0.128/26",
+]
+vpc_id_with_cidr = "vpc-0153884276e5c631a = 10.0.0.0/24"
+PS C:\Users\Festus\Documents\EPAM\tf\tf-lab1>
